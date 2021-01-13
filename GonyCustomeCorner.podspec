@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GonyCustomeCorner"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of GonyCustomeCorner."
+  spec.version      = "1.0.0"
+  spec.summary      = "Create custom corner for ios control"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,8 +38,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Vuong Vu" => "vuong.vv@homecredit.vn" }
+  spec.author             = { "Lil Vip" => "lilvip9999@gmail.com" }
   # Or just: spec.author    = "Vuong Vu"
   # spec.authors            = { "Vuong Vu" => "vuong.vv@homecredit.vn" }
   # spec.social_media_url   = "https://twitter.com/Vuong Vu"
