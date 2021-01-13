@@ -1,0 +1,22 @@
+{
+  "name": "GonyCustomeCorner",
+  "version": "1.0.0",
+  "summary": "Create custom corner for ios control.",
+  "description": "This control can developer custome corder easier",
+  "homepage": "https://github.com/lilvip9999/gonycustomecorner",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lil Vip": "lilvip9999@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lilvip9999/gonycustomecorner.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "GonyCustomeCorner/Classes/**/*"
+}

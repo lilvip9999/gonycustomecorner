@@ -1,0 +1,16 @@
+PODS:
+  - GonyCustomeCorner (1.0.0)
+
+DEPENDENCIES:
+  - GonyCustomeCorner (from `../`)
+
+EXTERNAL SOURCES:
+  GonyCustomeCorner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GonyCustomeCorner: 03d0e4846e57e1d5965ed48e713ef14def6bd4bd
+
+PODFILE CHECKSUM: 356d3e2c29a4ac3e26e7de92329018527c1d2a6c
+
+COCOAPODS: 1.8.4

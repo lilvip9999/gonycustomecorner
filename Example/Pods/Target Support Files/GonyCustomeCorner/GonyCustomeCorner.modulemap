@@ -1,0 +1,6 @@
+framework module GonyCustomeCorner {
+  umbrella header "GonyCustomeCorner-umbrella.h"
+
+  export *
+  module * { export * }
+}

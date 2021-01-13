@@ -1,0 +1,6 @@
+framework module Pods_GonyCustomeCorner_Tests {
+  umbrella header "Pods-GonyCustomeCorner_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
