@@ -8,16 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		12F54A129A18A2EF695420C5096B707C /* Pods-GonyCustomeCorner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9951AC99E08295577B6D630767C8130E /* Pods-GonyCustomeCorner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		241D591983DDB4A8F32E290C65F1596D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		20D5188FAA5891E09492DF1EC15252FE /* GonyCustomCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA36CC13A80DC730D6BBFB487E59637D /* GonyCustomCornerView.swift */; };
+		241D591983DDB4A8F32E290C65F1596D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		3CDA20A0E9CA8437B2806403F0D8E027 /* Pods-GonyCustomeCorner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FA842CB70A58CF417A12655AF13F01 /* Pods-GonyCustomeCorner_Example-dummy.m */; };
-		4DC88F7B3327420CD6B286457106C77F /* GonyCustomCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E48664F8292DE23A1685D2665CD52 /* GonyCustomCornerButton.swift */; };
-		5C438D38D319AF8E71182BC2056E6C61 /* GonyCustomeCorner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B29C5299DAA8CF3F4488DF74E0AE53E /* GonyCustomeCorner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B45C6A1A67BB6C067CF5235BF4D10B7C /* GonyCustomeCorner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5254EB07EFF1AAF65F9B4325A43115 /* GonyCustomeCorner-dummy.m */; };
-		BC37EC9C381E489438DF34A1B3DF0401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		50718A514DB85D72D87429F0E4C0869C /* GonyCustomeCorner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2676D96A4EB89DEC85548FD255A873C1 /* GonyCustomeCorner-dummy.m */; };
+		5354F2C40A38B6ADC5C60DD8A0BD10DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		749327586887B3E6D32CA3DE0AC58BFC /* GonyCustomCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E9FCEEA7E477A940A4C90F091A943 /* GonyCustomCornerButton.swift */; };
 		C10D64582ABE834B8075146E55D32933 /* Pods-GonyCustomeCorner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 652C34EE1CE824531137BC6E3CC3DA3A /* Pods-GonyCustomeCorner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C38C321233600523798A5620A0899FC5 /* GonyCustomCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2B4E5F089AFC49602B0C962232BADA /* GonyCustomCornerView.swift */; };
-		E42692598910944528D92A5C27440381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D18074EF1C6E0E15BA5341D2428D798F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E42692598910944528D92A5C27440381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		EBFF51CB807B9F3ADAD43F271DBEE329 /* Pods-GonyCustomeCorner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 754764A5BB511C933E73127E01EB0F7A /* Pods-GonyCustomeCorner_Tests-dummy.m */; };
+		F8BE16CB63D58E799DFE9E0C9BF94787 /* GonyCustomeCorner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A3091F9DC84920E6B0898E9B6A86CB /* GonyCustomeCorner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,39 +39,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1197A2A1E2A7C581B44EAED2AC2E5AEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		13620C4270F7A25F4A8F3D4D3F1D16A8 /* Pods-GonyCustomeCorner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GonyCustomeCorner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2278C3E587494898CF5D094CA835E770 /* Pods-GonyCustomeCorner_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GonyCustomeCorner_Tests-Info.plist"; sourceTree = "<group>"; };
 		23FA842CB70A58CF417A12655AF13F01 /* Pods-GonyCustomeCorner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GonyCustomeCorner_Example-dummy.m"; sourceTree = "<group>"; };
 		23FB06319539B0E343CD40D891F541E0 /* Pods-GonyCustomeCorner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GonyCustomeCorner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2BA153964892A7467D363D17F442F463 /* GonyCustomeCorner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GonyCustomeCorner.modulemap; sourceTree = "<group>"; };
+		2469FE0A644EC2465667F88C25DA8E45 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2676D96A4EB89DEC85548FD255A873C1 /* GonyCustomeCorner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GonyCustomeCorner-dummy.m"; sourceTree = "<group>"; };
 		2DB96E62289C745645D70BA599795A94 /* Pods-GonyCustomeCorner_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GonyCustomeCorner_Example-Info.plist"; sourceTree = "<group>"; };
 		2EA432286FA778015C445FE61AA88DD1 /* Pods-GonyCustomeCorner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GonyCustomeCorner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3A49405484A0D0DD61548222A54EC454 /* GonyCustomeCorner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GonyCustomeCorner.modulemap; sourceTree = "<group>"; };
 		3ABC83120BDAD4D8466902ED38667A9B /* Pods-GonyCustomeCorner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GonyCustomeCorner_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3B29A7481D0CF7FE9538A2A45201D90D /* Pods-GonyCustomeCorner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GonyCustomeCorner_Example-frameworks.sh"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		44C22B7AF6EA8A86BCF07E968AA5B4C4 /* Pods-GonyCustomeCorner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GonyCustomeCorner_Example.modulemap"; sourceTree = "<group>"; };
 		468BBEC08050D348E0B92840DB8728B0 /* GonyCustomeCorner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GonyCustomeCorner.framework; path = GonyCustomeCorner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A2B4E5F089AFC49602B0C962232BADA /* GonyCustomCornerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GonyCustomCornerView.swift; path = GonyCustomeCorner/Classes/GonyCustomCornerView.swift; sourceTree = "<group>"; };
-		4B29C5299DAA8CF3F4488DF74E0AE53E /* GonyCustomeCorner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GonyCustomeCorner-umbrella.h"; sourceTree = "<group>"; };
 		5F7B67D7FD93EBD305A2C4A340FFA787 /* Pods-GonyCustomeCorner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GonyCustomeCorner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6144DCBB5F457D0D7E7FF67245B16CF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		63AA986D91B76D9FCF2CB6A249E9945B /* Pods_GonyCustomeCorner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GonyCustomeCorner_Tests.framework; path = "Pods-GonyCustomeCorner_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		652C34EE1CE824531137BC6E3CC3DA3A /* Pods-GonyCustomeCorner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GonyCustomeCorner_Example-umbrella.h"; sourceTree = "<group>"; };
+		74A3091F9DC84920E6B0898E9B6A86CB /* GonyCustomeCorner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GonyCustomeCorner-umbrella.h"; sourceTree = "<group>"; };
 		754764A5BB511C933E73127E01EB0F7A /* Pods-GonyCustomeCorner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GonyCustomeCorner_Tests-dummy.m"; sourceTree = "<group>"; };
+		793E9FCEEA7E477A940A4C90F091A943 /* GonyCustomCornerButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GonyCustomCornerButton.swift; path = Classes/GonyCustomCornerButton.swift; sourceTree = "<group>"; };
+		80D74C2BC734A56BABFBC17DBE491994 /* GonyCustomeCorner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GonyCustomeCorner-Info.plist"; sourceTree = "<group>"; };
 		8563665FEB93649189A7ADD1F8B433EA /* Pods-GonyCustomeCorner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GonyCustomeCorner_Tests.modulemap"; sourceTree = "<group>"; };
 		8BF8E7722AF313DA3B7D87A0884BB607 /* Pods-GonyCustomeCorner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GonyCustomeCorner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		92CF6F53E17F4308778BEBC98CA4F47E /* Pods-GonyCustomeCorner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GonyCustomeCorner_Example.release.xcconfig"; sourceTree = "<group>"; };
+		956DFF29FC8F0F42D9EC92D82CD3F1C3 /* GonyCustomeCorner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GonyCustomeCorner.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95A9A198B007A96B43681E5F466C129B /* Pods-GonyCustomeCorner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GonyCustomeCorner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9951AC99E08295577B6D630767C8130E /* Pods-GonyCustomeCorner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GonyCustomeCorner_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BFE4EE36D3A69BB617F3D69C3A599BF0 /* GonyCustomeCorner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GonyCustomeCorner.xcconfig; sourceTree = "<group>"; };
-		CD5254EB07EFF1AAF65F9B4325A43115 /* GonyCustomeCorner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GonyCustomeCorner-dummy.m"; sourceTree = "<group>"; };
-		DEBCE971B24A86D9C86C6160A3D86DA6 /* GonyCustomeCorner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GonyCustomeCorner-prefix.pch"; sourceTree = "<group>"; };
-		E1EF61DB2FF34E1BC4D44D3DEDFB5CFA /* GonyCustomeCorner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GonyCustomeCorner.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EB08CB923099D8CDF9151BBF143DE51F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F055E8E7BB8DE385A76D5E45BC8D1504 /* GonyCustomeCorner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GonyCustomeCorner-Info.plist"; sourceTree = "<group>"; };
+		BC626D5326E0B6F925B2E41502706864 /* GonyCustomeCorner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GonyCustomeCorner-prefix.pch"; sourceTree = "<group>"; };
+		CCEDA766E586FF04283ACE879C3F3EBC /* GonyCustomeCorner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GonyCustomeCorner.xcconfig; sourceTree = "<group>"; };
+		DA36CC13A80DC730D6BBFB487E59637D /* GonyCustomCornerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GonyCustomCornerView.swift; path = Classes/GonyCustomCornerView.swift; sourceTree = "<group>"; };
 		F27B9D357D04185A7B735D257DCD2577 /* Pods_GonyCustomeCorner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GonyCustomeCorner_Example.framework; path = "Pods-GonyCustomeCorner_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB3E48664F8292DE23A1685D2665CD52 /* GonyCustomCornerButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GonyCustomCornerButton.swift; path = GonyCustomeCorner/Classes/GonyCustomCornerButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,19 +84,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		21E09C96F13C88E7D1EE29BD98B4605D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC37EC9C381E489438DF34A1B3DF0401 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55F1A9F9B6E133CDE3B748F08414A672 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				241D591983DDB4A8F32E290C65F1596D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E506F837A437EB36B60FBB38ACEA0D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18074EF1C6E0E15BA5341D2428D798F /* Foundation.framework in Frameworks */,
+				5354F2C40A38B6ADC5C60DD8A0BD10DD /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +121,14 @@
 			path = "Target Support Files/Pods-GonyCustomeCorner_Example";
 			sourceTree = "<group>";
 		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2A2C7D1F02B4CB9E6F6433317F4513AA /* Pods-GonyCustomeCorner_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,20 +145,10 @@
 			path = "Target Support Files/Pods-GonyCustomeCorner_Tests";
 			sourceTree = "<group>";
 		};
-		6D25E721BBE78210E0279F2531385AAB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E1EF61DB2FF34E1BC4D44D3DEDFB5CFA /* GonyCustomeCorner.podspec */,
-				6144DCBB5F457D0D7E7FF67245B16CF0 /* LICENSE */,
-				EB08CB923099D8CDF9151BBF143DE51F /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7A9905FD4077819497542A033EDCDF56 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				98F6F4A7801D98AD7359A500EDF6BEC9 /* GonyCustomeCorner */,
+				96FE23EF36ADE1542E8FB54168BB929A /* GonyCustomeCorner */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -162,16 +163,40 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		98F6F4A7801D98AD7359A500EDF6BEC9 /* GonyCustomeCorner */ = {
+		96FE23EF36ADE1542E8FB54168BB929A /* GonyCustomeCorner */ = {
 			isa = PBXGroup;
 			children = (
-				FB3E48664F8292DE23A1685D2665CD52 /* GonyCustomCornerButton.swift */,
-				4A2B4E5F089AFC49602B0C962232BADA /* GonyCustomCornerView.swift */,
-				6D25E721BBE78210E0279F2531385AAB /* Pod */,
-				EA5A2D23324EF590EE4E029F39F71834 /* Support Files */,
+				793E9FCEEA7E477A940A4C90F091A943 /* GonyCustomCornerButton.swift */,
+				DA36CC13A80DC730D6BBFB487E59637D /* GonyCustomCornerView.swift */,
+				B0471F0CFEC35B36FAC46662DA995AD2 /* Pod */,
+				9B84CEE44BE3F5E1928A597F6CE54B18 /* Support Files */,
 			);
 			name = GonyCustomeCorner;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		9B84CEE44BE3F5E1928A597F6CE54B18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A49405484A0D0DD61548222A54EC454 /* GonyCustomeCorner.modulemap */,
+				CCEDA766E586FF04283ACE879C3F3EBC /* GonyCustomeCorner.xcconfig */,
+				2676D96A4EB89DEC85548FD255A873C1 /* GonyCustomeCorner-dummy.m */,
+				80D74C2BC734A56BABFBC17DBE491994 /* GonyCustomeCorner-Info.plist */,
+				BC626D5326E0B6F925B2E41502706864 /* GonyCustomeCorner-prefix.pch */,
+				74A3091F9DC84920E6B0898E9B6A86CB /* GonyCustomeCorner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GonyCustomeCorner";
+			sourceTree = "<group>";
+		};
+		B0471F0CFEC35B36FAC46662DA995AD2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				956DFF29FC8F0F42D9EC92D82CD3F1C3 /* GonyCustomeCorner.podspec */,
+				1197A2A1E2A7C581B44EAED2AC2E5AEC /* LICENSE */,
+				2469FE0A644EC2465667F88C25DA8E45 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BF1D94596F05CB6982F75FCF2664475A /* Targets Support Files */ = {
@@ -183,45 +208,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				7A9905FD4077819497542A033EDCDF56 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				7D7C6DB25EE7E288EA7A0696392907EA /* Products */,
 				BF1D94596F05CB6982F75FCF2664475A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EA5A2D23324EF590EE4E029F39F71834 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2BA153964892A7467D363D17F442F463 /* GonyCustomeCorner.modulemap */,
-				BFE4EE36D3A69BB617F3D69C3A599BF0 /* GonyCustomeCorner.xcconfig */,
-				CD5254EB07EFF1AAF65F9B4325A43115 /* GonyCustomeCorner-dummy.m */,
-				F055E8E7BB8DE385A76D5E45BC8D1504 /* GonyCustomeCorner-Info.plist */,
-				DEBCE971B24A86D9C86C6160A3D86DA6 /* GonyCustomeCorner-prefix.pch */,
-				4B29C5299DAA8CF3F4488DF74E0AE53E /* GonyCustomeCorner-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GonyCustomeCorner";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,11 +239,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D60FC0E5600F463E838EBE4EB0F86B27 /* Headers */ = {
+		C25657A1CA55370950E4B6CAD8ECF353 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C438D38D319AF8E71182BC2056E6C61 /* GonyCustomeCorner-umbrella.h in Headers */,
+				F8BE16CB63D58E799DFE9E0C9BF94787 /* GonyCustomeCorner-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,12 +260,12 @@
 /* Begin PBXNativeTarget section */
 		0D707EFCBF5A60F6EF488BFCEE988C4A /* GonyCustomeCorner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BE10BFF2E1261594F3FABE393A16E96 /* Build configuration list for PBXNativeTarget "GonyCustomeCorner" */;
+			buildConfigurationList = 11330AB21E70587277D4ECBF661CD631 /* Build configuration list for PBXNativeTarget "GonyCustomeCorner" */;
 			buildPhases = (
-				D60FC0E5600F463E838EBE4EB0F86B27 /* Headers */,
-				C9C59A154FA02BB954D69C7CE770B472 /* Sources */,
-				21E09C96F13C88E7D1EE29BD98B4605D /* Frameworks */,
-				9FA7970B43CC403E577D7EC8B7E27DF4 /* Resources */,
+				C25657A1CA55370950E4B6CAD8ECF353 /* Headers */,
+				74587B10E3EA6302F62E0174A820F30F /* Sources */,
+				E506F837A437EB36B60FBB38ACEA0D01 /* Frameworks */,
+				8AD53C4F46D49BC8D1120668256EE5C1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -340,7 +344,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9FA7970B43CC403E577D7EC8B7E27DF4 /* Resources */ = {
+		8AD53C4F46D49BC8D1120668256EE5C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,6 +368,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		74587B10E3EA6302F62E0174A820F30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749327586887B3E6D32CA3DE0AC58BFC /* GonyCustomCornerButton.swift in Sources */,
+				20D5188FAA5891E09492DF1EC15252FE /* GonyCustomCornerView.swift in Sources */,
+				50718A514DB85D72D87429F0E4C0869C /* GonyCustomeCorner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99D2C0F5618C61D62A0D020BDDFB7A51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,16 +391,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CDA20A0E9CA8437B2806403F0D8E027 /* Pods-GonyCustomeCorner_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9C59A154FA02BB954D69C7CE770B472 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4DC88F7B3327420CD6B286457106C77F /* GonyCustomCornerButton.swift in Sources */,
-				C38C321233600523798A5620A0899FC5 /* GonyCustomCornerView.swift in Sources */,
-				B45C6A1A67BB6C067CF5235BF4D10B7C /* GonyCustomeCorner-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,38 +412,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0524861ECB465EE74568B540AD91198D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFE4EE36D3A69BB617F3D69C3A599BF0 /* GonyCustomeCorner.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner.modulemap";
-				PRODUCT_MODULE_NAME = GonyCustomeCorner;
-				PRODUCT_NAME = GonyCustomeCorner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0C3D551A1497A058329106F5617F84AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3ABC83120BDAD4D8466902ED38667A9B /* Pods-GonyCustomeCorner_Example.debug.xcconfig */;
@@ -698,9 +670,9 @@
 			};
 			name = Debug;
 		};
-		F95ED088F0C851C61CB2ACF1319FDE9B /* Debug */ = {
+		923FFA165DEBAD0B39340EE10539B2DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFE4EE36D3A69BB617F3D69C3A599BF0 /* GonyCustomeCorner.xcconfig */;
+			baseConfigurationReference = CCEDA766E586FF04283ACE879C3F3EBC /* GonyCustomeCorner.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -729,23 +701,55 @@
 			};
 			name = Debug;
 		};
+		A7AA36A73749B9D12790AADB3F90ABAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCEDA766E586FF04283ACE879C3F3EBC /* GonyCustomeCorner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner.modulemap";
+				PRODUCT_MODULE_NAME = GonyCustomeCorner;
+				PRODUCT_NAME = GonyCustomeCorner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		11330AB21E70587277D4ECBF661CD631 /* Build configuration list for PBXNativeTarget "GonyCustomeCorner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923FFA165DEBAD0B39340EE10539B2DD /* Debug */,
+				A7AA36A73749B9D12790AADB3F90ABAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				916E0404255105F480DC4950B7625F7A /* Debug */,
 				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6BE10BFF2E1261594F3FABE393A16E96 /* Build configuration list for PBXNativeTarget "GonyCustomeCorner" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F95ED088F0C851C61CB2ACF1319FDE9B /* Debug */,
-				0524861ECB465EE74568B540AD91198D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -28,13 +28,15 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'GonyCustomeCorner/Classes/*.swift'
+  s.source_files = 'Classes/*.swift'
 
   # s.resource_bundles = {
   #   'GonyCustomeCorner' => ['GonyCustomeCorner/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.swift_version = "4.0"
 end
