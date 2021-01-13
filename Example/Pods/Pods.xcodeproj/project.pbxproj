@@ -408,6 +408,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0524861ECB465EE74568B540AD91198D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE4EE36D3A69BB617F3D69C3A599BF0 /* GonyCustomeCorner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner.modulemap";
+				PRODUCT_MODULE_NAME = GonyCustomeCorner;
+				PRODUCT_NAME = GonyCustomeCorner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		0C3D551A1497A058329106F5617F84AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3ABC83120BDAD4D8466902ED38667A9B /* Pods-GonyCustomeCorner_Example.debug.xcconfig */;
@@ -666,11 +698,10 @@
 			};
 			name = Debug;
 		};
-		9F46AA5B54B8D6E17C8DF36411967693 /* Release */ = {
+		F95ED088F0C851C61CB2ACF1319FDE9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BFE4EE36D3A69BB617F3D69C3A599BF0 /* GonyCustomeCorner.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -683,40 +714,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner.modulemap";
-				PRODUCT_MODULE_NAME = GonyCustomeCorner;
-				PRODUCT_NAME = GonyCustomeCorner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D6BA38CD74F39E64B077007B5409B1D5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFE4EE36D3A69BB617F3D69C3A599BF0 /* GonyCustomeCorner.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GonyCustomeCorner/GonyCustomeCorner.modulemap";
 				PRODUCT_MODULE_NAME = GonyCustomeCorner;
@@ -746,8 +744,8 @@
 		6BE10BFF2E1261594F3FABE393A16E96 /* Build configuration list for PBXNativeTarget "GonyCustomeCorner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6BA38CD74F39E64B077007B5409B1D5 /* Debug */,
-				9F46AA5B54B8D6E17C8DF36411967693 /* Release */,
+				F95ED088F0C851C61CB2ACF1319FDE9B /* Debug */,
+				0524861ECB465EE74568B540AD91198D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
